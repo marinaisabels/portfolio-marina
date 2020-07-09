@@ -4,6 +4,8 @@ import theme from "../src/style/index";
 
 import HomePage from './containers/HomePage';
 import AboutPage from './containers/AboutPage';
+import CompetencePage from './containers/CompetencePage';
+import EducationPage from './containers/EducationPage';
 
 
 function App() {
@@ -12,7 +14,8 @@ function App() {
       <CssBaseline />
     <HomePage/>
     <AboutPage/>
-{/* applicações */}
+    <CompetencePage/>
+    <EducationPage/>
     </MuiThemeProvider>
   );
 }
