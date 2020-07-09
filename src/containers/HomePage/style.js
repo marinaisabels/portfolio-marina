@@ -2,31 +2,30 @@ import styled from "styled-components";
 
 
 export const NavBar = styled.div`
-  width: 100vw;
+  width: 70vw;
 `
 
 export const NavBarIcons = styled.ul`
-  width: 5vw;
+  width: 6vw;
   list-style-type: none;
-  right:0;
+  right: 0px;
   margin: 0;
   padding: 0;
   background-color: #da8b2a;
-  position: fixed;
-  float: right;
+  position: absolute;
   height: 65vh;
-  overflow: auto;
 `
 export const NavBarIconslist = styled.li`
-  padding: 20px 15px;
+  padding: 30px 25px;
   float: center;
 `
 export const AboutMe = styled.div`
-  margin: -24px;
+  margin: 0px;
+  padding: -30px 30px;
   background: #da8b2a;
   border:none;
   width: 50vw;
-  height:69vh;
+  height:70vh;
   font-family:"Montserrat";
   font-size: 16px;
   float: right;
@@ -54,8 +53,8 @@ export const MyPhoto = styled.div`
   margin: 0px;
   background: #da8b2a;
   border:none;
-  width: 52vw;
-  height:66vh;
+  width: 40vw;
+  height:70vh;
   float: left;
 `
 export const Picture = styled.img`

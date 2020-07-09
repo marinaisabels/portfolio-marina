@@ -3,6 +3,7 @@ import { MuiThemeProvider, CssBaseline } from "@material-ui/core";
 import theme from "../src/style/index";
 
 import HomePage from './containers/HomePage';
+import AboutPage from './containers/AboutPage';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <MuiThemeProvider theme={theme}>
       <CssBaseline />
     <HomePage/>
+    <AboutPage/>
 {/* applicações */}
     </MuiThemeProvider>
   );
