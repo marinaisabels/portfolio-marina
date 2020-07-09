@@ -1,32 +1,43 @@
 import React from "react";
-import ButtonAppBar from "../../components/Material/AppBar";
-import { NavBar, NavBarIcons, NavBarIconslist, AboutMe, MyName, Title, TextTec, MyPhoto, Picture } from "./style";
-
+import { Title, TextTitle, Text, Button, Container } from "./style";
 
 function ProjectPage() {
-    
+
     return (
         <div>
-           <ButtonAppBar/>
-            <NavBar>
-                <NavBarIcons>
-                    <NavBarIconslist><a href="https://www.linkedin.com/in/marinaisabel/"><img src={require("../../images/group-10-copy.png")} alt="" /></a></NavBarIconslist>
-                    <NavBarIconslist><a href="https://github.com/marinaisabels"><img src={require("../../images/fill-1-copy.png")} alt="" /></a></NavBarIconslist>
-                    <NavBarIconslist><a href="https://instagram.com/marina_iza"><img src={require("../../images/group-8-copy.png")} alt="" /></a></NavBarIconslist>
-                </NavBarIcons>
-            </NavBar>
-            {/* Container da foto  */}
-            <MyPhoto>
-                <Picture src={require("../../images/eu.jpeg")} alt=""></Picture>
-            </MyPhoto>
-            {/* Container  de apresentação */}
-            <AboutMe>
-                <MyName><b>Eu sou <br/>Marina Isabel</b></MyName>
-                <Title>Desenvolvedora Web Full Stack</Title>
-                <TextTec>tecnologia e programação</TextTec>
-            </AboutMe>
+            <Container>
+                <Title>Meus Projetos</Title>
+
+                <div>
+                <TextTitle>FutureEats</TextTitle>
+                <Text>Front-end</Text>
+                <p>Aplicativo desenvolvido com Referências ao UberEats que tem como objetivos auxiliar o usuário 
+                    a fazer pedidos de restaurantes diversos. O objetivo deste projeto é 
+                    programar com React, Redux, HTML e CSS e utilizar bibliotecas como 
+                    Material-Ui e Styled Components(a partir de um design já criado no zeplin). 
+                    E trabalhar com a implementação de API REST.</p>
+                {/* <img src={require("")} alt=""/> */}
+                <Button>Ver no GitHub</Button>
+                </div>
+
+                <div>
+                <TextTitle>4eddit</TextTitle>
+                <Text>Front-end</Text>
+                {/* <img src={require("")} alt=""/> */}
+                <Button>Ver no GitHub</Button>
+                </div>
+
+                <div>
+                <TextTitle>Spotenu</TextTitle>
+                <Text>Full Stack</Text>
+                {/* <img src={require("")} alt=""/> */}
+                <Button>Ver no GitHub</Button>
+                </div>
+
+                <Button>mais projetos</Button>
+            </Container>
         </div>
     )
 }
 
-export default ProjectPage
+export default ProjectPage;

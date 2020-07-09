@@ -13,7 +13,7 @@ export const NavBarIcons = styled.ul`
   padding: 0;
   background-color: #da8b2a;
   position: absolute;
-  height: 65vh;
+  height: 87vh;
 `
 export const NavBarIconslist = styled.li`
   padding: 30px 25px;
@@ -25,7 +25,7 @@ export const AboutMe = styled.div`
   background: #da8b2a;
   border:none;
   width: 50vw;
-  height:70vh;
+  height:90vh;
   font-family:"Montserrat";
   font-size: 16px;
   float: right;
@@ -50,11 +50,11 @@ export const TextTec = styled.p`
   float: center;
 `
 export const MyPhoto = styled.div`
-  margin: 0px;
+  margin: -10px;
   background: #da8b2a;
   border:none;
-  width: 40vw;
-  height:70vh;
+  width: 50vw;
+  height:92vh;
   float: left;
 `
 export const Picture = styled.img`
