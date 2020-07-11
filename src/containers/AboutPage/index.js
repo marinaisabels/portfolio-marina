@@ -2,6 +2,7 @@ import React from "react";
 import { AboutContainer, AboutTitle, AboutText,  ButtonCV } from "./style";
 
 
+
 function AboutPage() {
 
     return (
@@ -17,7 +18,7 @@ function AboutPage() {
         <br/>
                    <b> |Javascript  |Typescript   |MYSQL   |HTML   |CSS   |NodeJS  |REACT </b>
                  </AboutText>
-                < ButtonCV><b>CV em PDF</b></ ButtonCV>
+                 < ButtonCV><a href={require("../../doc/Marina i Santos.pdf")}><b>CV em PDF</b></a></ ButtonCV>
             </AboutContainer>
         </div>
     )
