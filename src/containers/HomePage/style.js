@@ -4,7 +4,6 @@ import styled from "styled-components";
 export const NavBar = styled.div`
   width: 70vw;
 `
-
 export const NavBarIcons = styled.ul`
   width: 6vw;
   list-style-type: none;
@@ -33,36 +32,33 @@ export const AboutMe = styled.div`
 export const MyName = styled.h1`
   color: white;
   font-size: 60px;
-  padding: 50px 80px;
-  float: center;
+  padding: 50px 80px  50px 0px;
 `
 export const Title = styled.h4 `
  color: white;
  font-size: 24px;
- margin: -90px;
- padding: 15px 180px;
+ margin: -110px;
+ padding: 15px 180px  10px 117px;
  float: center;
 `
 export const TextTec = styled.p`
  color: white;
- margin: 90px;
- padding: 40px 80px;
-  float: center;
+ padding: 150px  0px   50px  80px;
+ float: center;
 `
 export const MyPhoto = styled.div`
-  margin: -10px;
-  background: #da8b2a;
-  border:none;
-  width: 50vw;
-  height:92vh;
-  float: left;
+ margin: -100px;
+ background: #da8b2a;
+ border:none;
+ width: 60vw;
+ height:110vh;
+ float: left;
 `
 export const Picture = styled.img`
-  border:none;
-  margin: -20px;
-  padding: 40px 80px;
-  width: 35vw;
-  height:70vh;
-  float: left;
+ margin: -10px;
+ padding: 40px 0px 0px 90px;
+ width: 45vw;
+ height:110vh;
+ float: left;
   
 `

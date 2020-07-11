@@ -7,9 +7,8 @@ function ProjectPage() {
         <div>
             <Container>
                 <Title>Meus Projetos</Title>
-
                 <div>
-                <ContainerImg src={require("../../images/imac-copy.png")} alt="" />
+                    <ContainerImg src={require("../../images/imac-copy.png")} alt="" />
                     <TextTitle>FutureEats</TextTitle>
                     <Text>Front-end</Text>
                     <SubText>Aplicativo desenvolvido com Referências ao UberEats que tem como objetivos auxiliar o usuário
@@ -17,30 +16,29 @@ function ProjectPage() {
                     programar com React, Redux, HTML e CSS e utilizar bibliotecas como
                     Material-Ui e Styled Components(a partir de um design já criado no zeplin).
                     E trabalhar com a implementação de API REST.</SubText>
-                    <Button>Ver no GitHub</Button>
+                    <Button><a href="https://github.com/marinaisabels/future-eats/">Ver no GitHub </a></Button>
                 </div>
-
                 <div>
-                <ContainerImg src={require("../../images/macbook-copy.png")} alt="" />
+                    <ContainerImg src={require("../../images/Iphone.png")} alt="" />
                     <TextTitle>4eddit</TextTitle>
                     <Text>Front-end</Text>
                     <SubText>Aplicativo desenvolvido com Referências ao Reddit.
                     O objetivo deste projeto é programar com React, Redux, HTML e CSS e utilizar bibliotecas como
                     Material-Ui e Styled Components.E trabalhar com a implementação de API REST.</SubText>
-                    <Button>Ver no GitHub</Button>
+                    <Button><a href="https://github.com/marinaisabels/4eddit">Ver no GitHub </a></Button>
                 </div>
-
                 <div>
-                <ContainerImg src={require("../../images/ipad-copy.png")} alt="" />
+                    <ContainerImg src={require("../../images/ipad-copy.png")} alt="" />
                     <TextTitle>Spotenu</TextTitle>
                     <Text>Full Stack</Text>
                     <SubText>Aplicativo desenvolvido com Referências ao Spotify.
                     O objetivo deste projeto é programar o Front-end utilizando
                     React, Redux, HTML e CSS e o Back-end utilizando NodeJS, Express, Typescript e MySQL.</SubText>
-                    <Button>Ver no GitHub</Button>
-
-                    <Button>mais projetos</Button>
+                    <Button><a href="https://github.com/marinaisabels/frontend-project">Ver no GitHub </a></Button>
+                    <Button><a href="https://github.com/marinaisabels">mais projetos</a></Button>
                 </div>
+                <br/>
+                <br/>
             </Container>
         </div>
     )

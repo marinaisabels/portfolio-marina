@@ -38,8 +38,8 @@ export const SubText = styled.p`
 export const ContainerImg = styled.img`
     float: left;
     padding: 5px;
-    margin: 50px 70px 20px 0px;
-    max-width: 200px;
+    margin: 50px 10px 20px 0px;
+    max-width: 250px;
 `
 export const Button = styled.button`
     margin: 10px;
