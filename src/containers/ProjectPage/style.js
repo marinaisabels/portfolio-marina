@@ -1,21 +1,19 @@
 import styled from "styled-components";
 
-
-
 export const Container = styled.div `
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0px;
-    padding: 30px 10px 0px 570px;
+    margin: 30px;
+    padding: 0px 0px 0px 380px;
     width: 99vw;
-    height: 98vh;
+    height: 160vh;
     background: white;
     font-family: Montserrat;
 `
 
 export const Title = styled.h1`
-    padding: 0px 0px 0px -30px;
+    padding: 0px 0px 0px 200px;
     font-size:20px;
     color: #5a3b3b;  
     margin: 10px;
@@ -28,8 +26,20 @@ export const TextTitle = styled.h2`
     margin: 10px;
 `
 export const Text = styled.div`
-    padding: 0px 10px 0px 50px;
+    padding: 0px 0px 0px 50px;
     color: #5a3b3b;   
+`
+export const SubText = styled.p`
+    padding: 0px 100px 0px 10px;
+    width: 56vw;
+    text-align: justify;
+    color: #5a3b3b;   
+`
+export const ContainerImg = styled.img`
+    float: left;
+    padding: 5px;
+    margin: 50px 10px 20px 0px;
+    max-width: 250px;
 `
 export const Button = styled.button`
     margin: 10px;
@@ -44,4 +54,4 @@ export const Button = styled.button`
   &:hover {
     background-color: #da8b2a;
   }
-`
+  `

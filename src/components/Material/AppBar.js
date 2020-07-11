@@ -7,6 +7,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 import styled from "styled-components";
 
+
 const Button = styled.button`
   width: 7vw;
   height:25px;
@@ -57,4 +58,6 @@ function ButtonAppBar() {
     )
 }
 
-export default ButtonAppBar
+
+
+export default ButtonAppBar;

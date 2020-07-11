@@ -4,10 +4,10 @@ import { NavBar, NavBarIcons, NavBarIconslist, AboutMe, MyName, Title, TextTec, 
 
 
 function HomePage() {
-    
+
     return (
         <div>
-           <ButtonAppBar/>
+            <ButtonAppBar />
             <NavBar>
                 <NavBarIcons>
                     <NavBarIconslist><a href="https://www.linkedin.com/in/marinaisabel/"><img src={require("../../images/group-10-copy.png")} alt="" /></a></NavBarIconslist>
@@ -15,15 +15,13 @@ function HomePage() {
                     <NavBarIconslist><a href="https://instagram.com/marina_iza"><img src={require("../../images/group-8-copy.png")} alt="" /></a></NavBarIconslist>
                 </NavBarIcons>
             </NavBar>
-            {/* Container da foto  */}
             <MyPhoto>
-                <Picture src={require("../../images/eu.jpeg")} alt=""></Picture>
+                <Picture src={require("../../images/photo.png")} alt=""></Picture>
             </MyPhoto>
-            {/* Container  de apresentação */}
             <AboutMe>
-                <MyName><b>Eu sou <br/>Marina Isabel</b></MyName>
+                <MyName>Eu sou <br />Marina Isabel</MyName>
                 <Title>Desenvolvedora Web Full Stack</Title>
-                <TextTec>tecnologia e programação</TextTec>
+                <TextTec>tecnologia e programação <img src={require("../../images/heart.png")} alt="" /></TextTec>
             </AboutMe>
         </div>
     )
