@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 export const NavBar = styled.div`
   width: 70vw;
+
 `
 export const NavBarIcons = styled.ul`
   width: 6vw;
@@ -10,9 +11,10 @@ export const NavBarIcons = styled.ul`
   right: 0px;
   margin: 0;
   padding: 0;
-  background-color: #da8b2a;
+  border-radius: 2em;
+  background-color:#fff7d0;
   position: absolute;
-  height: 87vh;
+  height: 90vh;
 `
 export const NavBarIconslist = styled.li`
   padding: 30px 25px;
@@ -21,7 +23,7 @@ export const NavBarIconslist = styled.li`
 export const AboutMe = styled.div`
   margin: 0px;
   padding: -30px 30px;
-  background: #da8b2a;
+  background: #ffffff;
   border:none;
   width: 50vw;
   height:90vh;
@@ -30,35 +32,35 @@ export const AboutMe = styled.div`
   float: right;
 `
 export const MyName = styled.h1`
-  color: white;
+  color: #d8af85;
   font-size: 60px;
   padding: 50px 80px  50px 0px;
 `
 export const Title = styled.h4 `
- color: white;
+ color: #5a3b3b;
  font-size: 24px;
  margin: -110px;
  padding: 15px 180px  10px 117px;
  float: center;
 `
 export const TextTec = styled.p`
- color: white;
- padding: 150px  0px   50px  80px;
+ color: #d8af85;
+ padding: 120px  0px   50px  80px;
  float: center;
 `
 export const MyPhoto = styled.div`
  margin: -100px;
- background: #da8b2a;
+ background: #ffffff;
  border:none;
  width: 60vw;
  height:110vh;
  float: left;
 `
 export const Picture = styled.img`
- margin: -10px;
- padding: 40px 0px 0px 90px;
- width: 45vw;
- height:110vh;
+ margin: 60px;
+ padding: 40px 0px 0px 260px;
+ width: 80vw;
+ height:80vh;
  float: left;
   
 `

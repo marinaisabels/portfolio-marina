@@ -7,7 +7,7 @@ export const Container = styled.div `
   background: #f2c12e;
   margin: 0px;
   width: 99vw;
-  height: 100vh;
+  height: 70vh;
   float: left;
   font-family: Montserrat;
 `
@@ -30,20 +30,20 @@ export const LeftContainer = styled.div`
   padding: 63px 15px 10px 20px;
   background: #e28d8c;
   width: 60vw;
-  height:100vh;
+  height:70vh;
   text-align: justify;
 `
 export const RightContainer = styled.div`
   padding: 63px 15px 10px 20px;
   width: 60vw;
-  height:100vh;
+  height:70vh;
   background: #f2c12e;
   text-align: justify;
 `
 export const CenterContanier = styled.div`
   padding: 0 15px;
   width: 70vw;
-  height:100vh;
+  height:70vh;
   background:#d9a87e;
   text-align: justify;
 `

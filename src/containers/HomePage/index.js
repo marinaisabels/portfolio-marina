@@ -16,12 +16,12 @@ function HomePage() {
                 </NavBarIcons>
             </NavBar>
             <MyPhoto>
-                <Picture src={require("../../images/photo.png")} alt=""></Picture>
+                <Picture src={require("../../images/pic.png")} alt=""></Picture>
             </MyPhoto>
             <AboutMe>
                 <MyName>Eu sou <br />Marina Isabel</MyName>
                 <Title>Desenvolvedora Web Full Stack</Title>
-                <TextTec>tecnologia e programação <img src={require("../../images/heart.png")} alt="" /></TextTec>
+                <TextTec>tecnologia e programação</TextTec>
             </AboutMe>
         </div>
     )

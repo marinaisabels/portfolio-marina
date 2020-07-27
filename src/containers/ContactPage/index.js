@@ -20,9 +20,9 @@ function ContactPage() {
                 </Text>
                 <br/>
                 <ContactIcons>
-                    <a href="https://www.linkedin.com/in/marinaisabel/"><img src={require("../../images/group-10-copy.png")} alt="" /></a>
-                    <a href="https://github.com/marinaisabels"><img src={require("../../images/fill-1-copy.png")} alt="" /></a>
-                    <a href="https://instagram.com/marina_iza"><img src={require("../../images/group-8-copy.png")} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/marinaisabel/"><img src={require("../../images/group-10-copy.png")} alt="Linkedin" style={{ padding: '12px'}} /></a>
+                    <a href="https://github.com/marinaisabels"><img src={require("../../images/fill-1-copy.png")} alt="GitHub" style={{ padding: '12px'}} /></a>
+                    <a href="https://instagram.com/marina_iza"><img src={require("../../images/group-8-copy.png")} alt="Istagram" style={{ padding: '12px'}} /></a>
                 </ContactIcons>
             </Container>
             <Footer>
