@@ -18,7 +18,7 @@ function AboutPage() {
         <br/>
                    <b> |Javascript  |Typescript   |MYSQL   |HTML   |CSS   |NodeJS  |REACT </b>
                  </AboutText>
-                 < ButtonCV><a href={require("../../doc/Marina i Santos.pdf")}><b>CV em PDF</b></a></ ButtonCV>
+                 < ButtonCV><a href={require("../../doc/Marina i Santos.pdf")} style={{textDecoration: 'none'}}><b>CV em PDF</b></a></ ButtonCV>
             </AboutContainer>
         </div>
     )

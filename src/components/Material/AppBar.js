@@ -11,8 +11,8 @@ import styled from "styled-components";
 const Button = styled.button`
   width: 7vw;
   height:25px;
-  background: #da8b2a;
-  color: #ffff;
+  background: white;
+  color: #5a3b3b;
   border:none;
   border-radius: 7%;
   font-family:"Montserrat";
@@ -20,7 +20,7 @@ const Button = styled.button`
   float: right;
   cursor: pointer;
   &:hover {
-    background-color: #e1b547;
+    background-color: #fff7d0;
   }
 `
 

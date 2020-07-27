@@ -4,7 +4,7 @@ export const Container = styled.div `
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 30px;
+    margin: 10px;
     padding: 0px 0px 0px 380px;
     width: 99vw;
     height: 160vh;
@@ -13,14 +13,14 @@ export const Container = styled.div `
 `
 
 export const Title = styled.h1`
-    padding: 0px 0px 0px 200px;
+    padding: 50px 0px 0px 200px;
     font-size:20px;
     color: #5a3b3b;  
     margin: 10px;
 `
 
 export const TextTitle = styled.h2`
-    padding: 0px 0px 0px 30px;
+    padding: -30px 0px 0px 30px;
     font-size:40px;
     color: #5a3b3b;  
     margin: 10px;
