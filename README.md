@@ -2,6 +2,7 @@
 - [Meu Linkedin](https://www.linkedin.com/in/marinaisabel/)
 - [Linkedin Camila Mizutani](https://www.linkedin.com/in/camila-mizutani-257495bb/)
 
+Status do projeto: Em andamento ⌛ 
 ______
 
 ### Começando
