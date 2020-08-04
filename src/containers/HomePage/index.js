@@ -1,13 +1,13 @@
 import React from "react";
 import ButtonAppBar from "../../components/Material/AppBar";
-import { NavBar, NavBarIcons, NavBarIconslist, AboutMe, MyName, Title, TextTec, MyPhoto, Picture } from "./style";
+import { NavBar, NavBarIcons, NavBarIconslist, AboutMe, MyName, Title, TextTec, MyPhoto} from "./style";
 
 
 function HomePage() {
 
     return (
         <div>
-            <ButtonAppBar />
+            <ButtonAppBar id="Contato"/>
             <NavBar>
                 <NavBarIcons>
                     <NavBarIconslist><a href="https://www.linkedin.com/in/marinaisabel/"><img src={require("../../images/group-10-copy.png")} alt="" /></a></NavBarIconslist>
@@ -16,7 +16,7 @@ function HomePage() {
                 </NavBarIcons>
             </NavBar>
             <MyPhoto>
-                <Picture src={require("../../images/pic.png")} alt=""></Picture>
+                {/* <Picture src={require("../../images/yo.jpg")} alt=""></Picture> */}
             </MyPhoto>
             <AboutMe>
                 <MyName>Eu sou <br />Marina Isabel</MyName>

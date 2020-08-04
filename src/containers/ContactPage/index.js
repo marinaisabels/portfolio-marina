@@ -9,7 +9,7 @@ function ContactPage() {
 
     return (
         <div>
-            <Container>
+            <Container id="ContactPage">
                 <Title>Contato</Title>
                 <Text>Procuro oportunidade de trabalho onde eu possa aprender,<br/>
                 me desenvolver e evoluir na minha carreira profissional.

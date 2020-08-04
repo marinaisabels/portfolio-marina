@@ -2,9 +2,6 @@ import React from 'react';
 import { MuiThemeProvider, CssBaseline } from "@material-ui/core";
 import theme from "../src/style/index";
 
-
-
-
 import HomePage from './containers/HomePage';
 import AboutPage from './containers/AboutPage';
 import CompetencePage from './containers/CompetencePage';
@@ -17,6 +14,7 @@ import ContactPage from './containers/ContactPage';
 
 function App() {
   return (
+    <div className="App">
     <MuiThemeProvider theme={theme}>
       <CssBaseline />
       <HomePage />
@@ -26,6 +24,7 @@ function App() {
       <ProjectPage/>
       <ContactPage/>
     </MuiThemeProvider>
+    </div>
   );
 }
 
