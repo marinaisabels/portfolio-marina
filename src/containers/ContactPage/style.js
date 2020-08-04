@@ -7,6 +7,10 @@ export const Container = styled.div `
     height: 50vh;
     background: #feb281;
     font-family: Montserrat;
+    @media(max-width: 736px) {
+    width: 100%;
+    height: 100%;
+  }
 `
 
 export const Title = styled.h1`
@@ -38,4 +42,8 @@ export const Footer = styled.div`
    background-color:  #5e3249;
    color:#feb281;
    text-align: center;
+   @media(max-width: 736px) {
+    width: 100%;
+    height: 100%;
+  }
 `

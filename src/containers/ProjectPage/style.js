@@ -9,6 +9,11 @@ export const Container = styled.div `
     height: 180vh;
     background:  #f2c12e;
     font-family: Montserrat;
+    @media(max-width: 736px) {
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 80px;
+  }
 `
 
 export const Title = styled.h1`
@@ -16,6 +21,10 @@ export const Title = styled.h1`
     font-size:20px;
     color: #824c68;  
     margin: 10px;
+    @media(max-width: 736px) {
+    font-size: 20px;
+    padding: 10px 0 0 70px;
+  }
 `
 
 export const TextTitle = styled.h2`
@@ -23,16 +32,26 @@ export const TextTitle = styled.h2`
     font-size:40px;
     color: #824c68;  
     margin: 10px;
+    @media(max-width: 736px) {
+    font-size: 20px;
+  }
 `
 export const Text = styled.div`
     padding: 0px 0px 0px 50px;
-    color: #824c68;   
+    color: #824c68;  
+    @media(max-width: 736px) {
+    font-size: 16px;
+  } 
 `
 export const SubText = styled.p`
     padding: 0px 100px 0px 10px;
     width: 56vw;
     text-align: justify;
     color: #824c68;   
+    @media(max-width: 736px) {
+    font-size: 12px;
+    width: 100%;
+  }
 `
 export const ContainerImg = styled.img`
     float: left;

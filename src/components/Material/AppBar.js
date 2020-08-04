@@ -23,6 +23,12 @@ const Button = styled.a`
   &:hover {
     background-color: #824c68;
   }
+  @media(max-width: 736px) { 
+    width: 30%;
+    left: 18%;
+    font-size: 14px;
+    display: block;
+  }
 `
 
 const StyleButton = styled.div`
