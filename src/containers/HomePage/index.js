@@ -16,7 +16,7 @@ function HomePage() {
                 </NavBarIcons>
             </NavBar>
             <MyPhoto>
-                {/* <Picture src={require("../../images/photo.jpg")} alt=""></Picture> */}
+                {/* <Picture src={require("../../images/yo.jpg")} alt=""></Picture> */}
             </MyPhoto>
             <AboutMe>
                 <MyName>Eu sou <br />Marina Isabel</MyName>

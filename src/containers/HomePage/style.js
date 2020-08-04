@@ -64,7 +64,7 @@ export const MyPhoto = styled.div`
 export const Picture = styled.img`
  margin: 60px;
  padding: 40px 0px 0px 260px;
- width: 80vw;
+ width: 45vw;
  height:80vh;
  float: left;
   
