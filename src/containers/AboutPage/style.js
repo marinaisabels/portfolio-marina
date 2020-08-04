@@ -12,23 +12,25 @@ export const AboutContainer = styled.div`
 `
 export const AboutTitle = styled.div`
     font-size:42px;
-    color: #5a3b3b;  
+    color: #5e3249;  
     padding: 0px 400px; 
 `
 
 export const AboutText = styled.div`
-    color: #5a3b3b;  
+    color: #5e3249;  
     padding: 0px 400px; 
     text-align: justify;
 `
 export const ButtonCV = styled.div`
-    width: 140px;
-    height:30px;
-    padding: 7px 25px;
+    width: 10vw;
+    height:35px;
+    padding: 5px;
     border-radius:8px;
-    color: #5a3b3b; 
-    background: #04c0ad; 
-    text-align: justify;
+    color: #824c68; 
+    background:#feb281; 
+    font-family:"Montserrat";
+    font-size: 18px;
+    text-align: center;
     float: right;
     cursor: pointer;
   &:hover {

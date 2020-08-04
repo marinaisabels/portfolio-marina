@@ -3,37 +3,36 @@ import styled from "styled-components";
 export const Container = styled.div `
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin: 10px;
+    margin: 0;
     padding: 0px 0px 0px 380px;
     width: 99vw;
-    height: 160vh;
-    background: white;
+    height: 180vh;
+    background:  #f2c12e;
     font-family: Montserrat;
 `
 
 export const Title = styled.h1`
     padding: 50px 0px 0px 200px;
     font-size:20px;
-    color: #5a3b3b;  
+    color: #824c68;  
     margin: 10px;
 `
 
 export const TextTitle = styled.h2`
     padding: -30px 0px 0px 30px;
     font-size:40px;
-    color: #5a3b3b;  
+    color: #824c68;  
     margin: 10px;
 `
 export const Text = styled.div`
     padding: 0px 0px 0px 50px;
-    color: #5a3b3b;   
+    color: #824c68;   
 `
 export const SubText = styled.p`
     padding: 0px 100px 0px 10px;
     width: 56vw;
     text-align: justify;
-    color: #5a3b3b;   
+    color: #824c68;   
 `
 export const ContainerImg = styled.img`
     float: left;
@@ -47,11 +46,10 @@ export const Button = styled.button`
     height:30px;
     padding: 7px 25px;
     border-radius:8px;
-    color: #5a3b3b; 
-    background: #e28d8c; 
+    background: white; 
     text-align: justify;
     cursor: pointer;
   &:hover {
-    background-color: #da8b2a;
+    background-color:  #824c68;
   }
   `

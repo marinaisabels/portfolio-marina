@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const Container = styled.div `
   display: flex;
   justify-content: space-between;
-  background: #f2c12e;
+  background: #5e3249;
   margin: 0px;
   width: 99vw;
   height: 70vh;
@@ -28,7 +28,7 @@ export const Text = styled.div`
 export const LeftContainer = styled.div`
   /* margin: -30px; */
   padding: 63px 15px 10px 20px;
-  background: #e28d8c;
+  background:#5e3249;
   width: 60vw;
   height:70vh;
   text-align: justify;
@@ -37,13 +37,13 @@ export const RightContainer = styled.div`
   padding: 63px 15px 10px 20px;
   width: 60vw;
   height:70vh;
-  background: #f2c12e;
+  background: #5e3249;
   text-align: justify;
 `
 export const CenterContanier = styled.div`
   padding: 0 15px;
   width: 70vw;
   height:70vh;
-  background:#d9a87e;
+  background:#5e3249;
   text-align: justify;
 `

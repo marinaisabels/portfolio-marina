@@ -5,7 +5,7 @@ function ProjectPage() {
 
     return (
         <div>
-            <Container>
+            <Container  id="ProjectPage">
                 <Title>Meus Projetos</Title>
                 <div>
                     <ContainerImg src={require("../../images/imac-copy.png")} alt="" />
@@ -34,7 +34,7 @@ function ProjectPage() {
                     <SubText>Aplicativo desenvolvido com Referências ao Spotify.
                     O objetivo deste projeto é programar o Front-end utilizando
                     React, Redux, HTML e CSS e o Back-end utilizando NodeJS, Express, Typescript e MySQL.</SubText>
-                    <Button><a href="https://github.com/marinaisabels/frontend-project "style={{textDecoration: 'none'}}>Ver no GitHub </a></Button>
+                    <Button><a href="https://github.com/marinaisabels/frontend-project "style={{textDecoration: 'none'}} >Ver no GitHub </a></Button>
                     <Button><a href="https://github.com/marinaisabels "style={{textDecoration: 'none'}}>mais projetos</a></Button>
                 </div>
                 <br/>

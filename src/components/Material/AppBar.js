@@ -1,26 +1,27 @@
 import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-
 import { makeStyles } from '@material-ui/core/styles';
-
 
 import styled from "styled-components";
 
 
-const Button = styled.button`
-  width: 7vw;
-  height:25px;
-  background: white;
-  color: #5a3b3b;
+
+
+const Button = styled.a`
+  width: 10vw;
+  height:30px;
+  background: #5e3249;
+  color: #feb281;
   border:none;
-  border-radius: 7%;
+  border-radius: 1em;
   font-family:"Montserrat";
-  font-size: 16px;
+  font-size: 18px;
   float: right;
+  padding: 0 21px;
   cursor: pointer;
   &:hover {
-    background-color: #fff7d0;
+    background-color: #824c68;
   }
 `
 
@@ -33,7 +34,7 @@ const useStyles = makeStyles(theme => ({
         height: 64,
     },
     toolbar: {
-        justifyContent: 'space-between',
+        justifyContent: 'space-evenly',
     },
     title: {
         flexGrow: 1,
@@ -43,21 +44,19 @@ const useStyles = makeStyles(theme => ({
 
 
 function ButtonAppBar() {
+
     const classes = useStyles();
     return (
         <AppBar className={classes.root} color='primary' position="static">
             <Toolbar className={classes.toolbar}>
                 <StyleButton>
-                <Button>contato</Button>
-                <Button>projetos</Button>
-                <Button>quem sou</Button>
+                    <Button href="#ContactPage" style={{ textDecoration: 'none' }}>contato</Button>
+                    <Button href="#ProjectPage" style={{ textDecoration: 'none' }}>projetos</Button>
+                    <Button href="#AboutPage" style={{ textDecoration: 'none' }}>quem sou</Button>
                 </StyleButton>
-                
             </Toolbar>
         </AppBar>
     )
 }
-
-
 
 export default ButtonAppBar;

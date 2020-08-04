@@ -17,6 +17,7 @@ import ContactPage from './containers/ContactPage';
 
 function App() {
   return (
+    <div className="App">
     <MuiThemeProvider theme={theme}>
       <CssBaseline />
       <HomePage />
@@ -26,6 +27,7 @@ function App() {
       <ProjectPage/>
       <ContactPage/>
     </MuiThemeProvider>
+    </div>
   );
 }
 

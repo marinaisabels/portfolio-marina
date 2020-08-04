@@ -12,18 +12,23 @@ export const NavBarIcons = styled.ul`
   margin: 0;
   padding: 0;
   border-radius: 2em;
-  background-color:#fff7d0;
+  background-color:#5e3249;
   position: absolute;
   height: 90vh;
 `
 export const NavBarIconslist = styled.li`
   padding: 30px 25px;
   float: center;
+  border-radius: 1.5em;
+  cursor: pointer;
+  &:hover {
+    background-color: #824c68;
+  }
 `
 export const AboutMe = styled.div`
   margin: 0px;
   padding: -30px 30px;
-  background: #ffffff;
+  background: #5e3249;
   border:none;
   width: 50vw;
   height:90vh;
@@ -32,25 +37,25 @@ export const AboutMe = styled.div`
   float: right;
 `
 export const MyName = styled.h1`
-  color: #d8af85;
+  color:#feb281;
   font-size: 60px;
   padding: 50px 80px  50px 0px;
 `
 export const Title = styled.h4 `
- color: #5a3b3b;
+ color: #feb281;
  font-size: 24px;
  margin: -110px;
  padding: 15px 180px  10px 117px;
  float: center;
 `
 export const TextTec = styled.p`
- color: #d8af85;
+ color: #feb281;
  padding: 120px  0px   50px  80px;
  float: center;
 `
 export const MyPhoto = styled.div`
  margin: -100px;
- background: #ffffff;
+ background: #5e3249;
  border:none;
  width: 60vw;
  height:110vh;

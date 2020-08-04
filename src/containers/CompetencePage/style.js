@@ -7,22 +7,22 @@ export const Container = styled.div `
     width: 99vw;
     height: 60vh;
     float: left;
-    background: #04c0ad;
+    background: #feb281;
     font-family: Montserrat;
 `
 export const Title = styled.h1`
     font-size:20px;
-    color: white;  
+    color: #824c68;  
     margin: -10px;
     padding: 0px 0px 50px 420px; 
 `
 export const TitleText = styled.h1`
 font-size:50px;
-    color: white;  
+    color: #824c68;  
 `
 export const Text = styled.div`
 
-    color: white;   
+    color: #824c68;   
 `
 export const LeftContainer = styled.div`
   float: left;

@@ -7,7 +7,7 @@ function AboutPage() {
 
     return (
         <div>
-            <AboutContainer>
+            <AboutContainer  id="AboutPage">
                 <AboutTitle><b>Sobre Mim</b></AboutTitle>
                 <AboutText>Bacharel em Comunicação Social com habilitação para
                 Radio, Tv e Internet, Webdesigner e desenvolvedora Full Stack.
